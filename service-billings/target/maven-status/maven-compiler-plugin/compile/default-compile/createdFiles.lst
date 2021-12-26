@@ -1,0 +1,8 @@
+com\aircraft_ground_handling\service_billings\repo\model\BillingServiceType.class
+com\aircraft_ground_handling\service_billings\repo\BillingRepo.class
+com\aircraft_ground_handling\service_billings\repo\model\BillingStatus.class
+com\aircraft_ground_handling\service_billings\service\BillingService.class
+com\aircraft_ground_handling\service_billings\api\dto\BillingDTO.class
+com\aircraft_ground_handling\service_billings\repo\model\Billing.class
+com\aircraft_ground_handling\service_billings\ServiceBillingsApplication.class
+com\aircraft_ground_handling\service_billings\api\BillingController.class

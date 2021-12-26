@@ -1,0 +1,8 @@
+com\aircraft_ground_handling\service_requests\api\RequestController.class
+com\aircraft_ground_handling\service_requests\repo\RequestRepo.class
+com\aircraft_ground_handling\service_requests\api\dto\RequestDTO.class
+com\aircraft_ground_handling\service_requests\service\RequestService.class
+com\aircraft_ground_handling\service_requests\ServiceRequestsApplication.class
+com\aircraft_ground_handling\service_requests\repo\model\RequestType.class
+com\aircraft_ground_handling\service_requests\repo\model\RequestStatus.class
+com\aircraft_ground_handling\service_requests\repo\model\Request.class

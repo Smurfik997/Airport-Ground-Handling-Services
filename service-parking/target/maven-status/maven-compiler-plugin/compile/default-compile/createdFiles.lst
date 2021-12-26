@@ -1,0 +1,13 @@
+com\aircraft_ground_handling\service_parking\service\ParkingRequestService.class
+com\aircraft_ground_handling\service_parking\api\ParkingRequestController.class
+com\aircraft_ground_handling\service_parking\repo\model\ParkingRequest.class
+com\aircraft_ground_handling\service_parking\repo\ParkingRepo.class
+com\aircraft_ground_handling\service_parking\api\ParkingController.class
+com\aircraft_ground_handling\service_parking\repo\model\ParkingType.class
+com\aircraft_ground_handling\service_parking\repo\model\Parking.class
+com\aircraft_ground_handling\service_parking\repo\model\ParkingStatus.class
+com\aircraft_ground_handling\service_parking\repo\ParkingRequestRepo.class
+com\aircraft_ground_handling\service_parking\ServiceParkingApplication.class
+com\aircraft_ground_handling\service_parking\service\ParkingService.class
+com\aircraft_ground_handling\service_parking\api\dto\ParkingRequestDTO.class
+com\aircraft_ground_handling\service_parking\api\dto\ParkingDTO.class

@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-parking
+spec:
+  selector:
+    app: service-parking
+  type: NodePort
+  ports:
+    - name: http
+      port: 8084
+      nodePort: 30004
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-parking
+spec:
+  selector:
+    matchLabels:
+      app: service-parking
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: service-parking
+    spec:
+      containers:
+        - name: server
+          image: smurfik997/service-parking:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8084
+
+---

@@ -1,0 +1,7 @@
+com\aircraft_ground_handling\service_users\repo\UserRepo.class
+com\aircraft_ground_handling\service_users\repo\model\User.class
+com\aircraft_ground_handling\service_users\service\UserService.class
+com\aircraft_ground_handling\service_users\ServiceUsersApplication.class
+com\aircraft_ground_handling\service_users\repo\model\UserType.class
+com\aircraft_ground_handling\service_users\api\dto\UserDTO.class
+com\aircraft_ground_handling\service_users\api\UserController.class
