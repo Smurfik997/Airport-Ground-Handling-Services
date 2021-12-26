@@ -19,8 +19,8 @@ import java.util.List;
 @RequestMapping("/requests")
 public class ParkingRequestController {
     private final ParkingRequestService parkingRequestService;
-    private final String aircraftService = "http://localhost:8082";
-    private String parkingService = "http://localhost:8084";
+    private final String aircraftService = "http://service-aircrafts:8082";
+    private String parkingService = "http://service-parking:8084";
 
     public ParkingRequestController(ParkingRequestService parkingRequestService) {
         this.parkingRequestService = parkingRequestService;

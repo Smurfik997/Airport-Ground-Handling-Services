@@ -20,7 +20,7 @@ import java.util.List;
 @RequestMapping("/billings")
 public class BillingController {
     private final BillingService billingService;
-    private final String userService = "http://localhost:8081";
+    private final String userService = "http://service-users:8081";
 
     public BillingController(BillingService billingService) {
         this.billingService = billingService;

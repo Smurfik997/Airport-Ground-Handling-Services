@@ -9,7 +9,7 @@ spec:
   ports:
     - name: http
       port: 8081
-      nodePort: 8081
+      nodePort: 30001
 
 ---
 

@@ -1,0 +1,7 @@
+com\aircraft_ground_handling\service_aircrafts\service\AircraftService.class
+com\aircraft_ground_handling\service_aircrafts\repo\model\AircraftType.class
+com\aircraft_ground_handling\service_aircrafts\repo\model\Aircraft.class
+com\aircraft_ground_handling\service_aircrafts\api\AircraftController.class
+com\aircraft_ground_handling\service_aircrafts\repo\AircraftRepo.class
+com\aircraft_ground_handling\service_aircrafts\ServiceAircraftsApplication.class
+com\aircraft_ground_handling\service_aircrafts\api\dto\AircraftDTO.class

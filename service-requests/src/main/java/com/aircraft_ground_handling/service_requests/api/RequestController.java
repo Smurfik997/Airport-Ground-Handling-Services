@@ -20,7 +20,7 @@ import java.util.List;
 @RequestMapping("/requests")
 public class RequestController {
     private final RequestService requestService;
-    private final String userService = "http://localhost:8081";
+    private final String userService = "http://service-users:8081";
 
     public RequestController(RequestService requestService) {
         this.requestService = requestService;
